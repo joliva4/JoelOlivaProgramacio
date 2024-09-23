@@ -1,5 +1,6 @@
-Variable1 = int(input("Introdueix un numero "))
-Variable2 = int(input("Introdueix un altre numero "))
+A = int (input("Introdueix un numero "))
+B = int(input("Introdueix el segon numero "))
 
 
-print ()
+
+print (f" B val", B, "A val", A)
