@@ -19,20 +19,17 @@ def classificacio(x1,y1,r1,x2,y2,r2):
     distancia = math.sqrt((x2 - x1)**2 +(y2 - y1)**2)
 
 # Possem les condicions...
-
     if distancia == 0 and r1 == r2:
-        return "concèntriques"
+        print ("concèntriques")
     elif distancia > r1 + r2:
-        return "exteriors"
+        print ("exteriors")
     elif distancia == r1 + r2:
-        return "tangents exteriors"
+        print ("tangents exteriors")
     elif distancia < r1 + r2 and distancia > abs(r1 - r2):
-        return "assecants"
+        print ("assecants")
     elif distancia == abs(r1 - r2):
-        return "tangents interiors"
+        print ("tangents interiors")
     elif distancia < abs(r1 - r2):
-        return "interiors"
+        print ("interiors")
     
-    print (classificacio(x1,y1,r1,x2,y2,r2))
-
 
