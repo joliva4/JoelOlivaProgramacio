@@ -8,4 +8,4 @@ for lletra in frase:
     if lletra in "aeiouAEIOU":
         primera_vocal = lletra
         print(f"La primera vocal de la frase és {primera_vocal}")
-        break  # Detener el bucle al encontrar la primera vocal
+        break
