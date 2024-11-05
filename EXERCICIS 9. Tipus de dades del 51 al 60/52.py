@@ -8,9 +8,9 @@ while True:
     contador = sum(llista)
 
 
-    print(llista)
-    print  (contador)
-    print(f"La suma de les de els numeros introduits és: {contador}")
+    print (*llista, sep="-")
+    print (contador)
+    print (f"La suma de els numeros introduits és: {contador}")
     print (f"Hi han {len(llista)} numeros a la llista ")
 
     if  numeros == 0:
